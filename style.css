@@ -1,0 +1,364 @@
+:root{
+    --red:#ed1c24;
+    --green:#28a745;
+    --white:#ffffff;
+    --black:#0f0f0f;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: inter;
+}
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter_Tight/InterTight-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(./assets/fonts/futurak.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(./assets/fonts/Apercu\ regular.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(./assets/fonts/butler/Butler/Butler_Medium.otf);
+}
+/* navbar started */
+.navbar{
+    padding-top: 15px;
+}
+.main-logo{
+    width: 165px;
+}
+div >a{
+    font-size: 1.9rem;
+}
+div >button{
+    font-size: 1.6rem;
+}
+.Franchise-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 25px;
+    padding: 15px 20px;
+}
+.Order-btn{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+}
+/* navbar ended */
+
+/* main started */
+.carousel{
+    width: 100%;
+}
+.our-brands>.heading-1{
+    font-size: 4rem;
+    font-family: inter;
+    font-weight: 300;
+    margin: 70px 0px 0px 0px;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.our-brands>.para{
+    font-size: 1.8rem;
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.futurak{
+    font-family: futurak;
+    font-size: 5rem;
+    position: absolute;
+    top: 70px;
+    text-align: center;
+}
+.brand-image{
+    background-color: var(--white);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+.brandorder-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 10px;
+    border-radius: 30px;
+    width: 230px;
+    margin-left: 40px;
+}
+.butler{
+    font-family: butler;
+    font-size: 5rem;
+    position: absolute;
+    top: 130px;
+    left: auto;
+}
+.container-2{
+    margin-top: 170px;
+    background-color: var(--black);
+    height: 200vh;
+    position: relative;  
+}
+.s-image{
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    height: 75vh;
+}
+.first-img{
+    flex-wrap: wrap;
+    position:absolute;
+    margin-top: 260px;
+    right: 120px;
+}
+.container-2>.para{
+    position: absolute;
+    top: 200px;
+    font-size: 1.6rem;
+    font-family: apercu;
+}
+.futurak-font-3{
+    font-family: futurak;
+    font-size: 3.6rem;
+    margin: 0px 0px 24px;
+}
+.children{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+.children>.para-i{
+    font-size: 1.6rem;
+    font-family: apercu;
+    position: inherit;
+    margin: 0px 0px 8px;
+    letter-spacing: 0.48em;
+    line-height: 4px;
+    text-transform: uppercase;
+}
+.restaurant-font{
+    font-family: apercu;
+    font-size: 3.2rem;
+}
+.children>.para-1,.para-2{
+    font-family: apercu;
+    font-size: 1.6rem;
+    position: inherit;
+    color: #969393;
+    margin-top: 25px;
+}
+.children>.direction-btn{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 15px 20px;
+    font-size: 1.4rem;
+    position: absolute;
+    left: 0px;
+    top: 180px;
+    border-radius: 25px;
+    width: 40%;
+}
+.second-img{
+    position: absolute;
+    top: 320px;
+    left: 0px;
+}
+.children-1{
+    position: relative;
+    top: 250px;
+    left: 570px;
+}
+.children-1>.para-f{
+    font-size: 1.6rem;
+    font-family: apercu;
+    position: absolute;
+    margin: 0px 0px 8px 0px;
+    letter-spacing: 0.48em;
+    line-height: 4px;
+    text-transform: uppercase;
+}
+.para-children-1{
+    font-family: apercu;
+    font-size: 1.6rem;
+    position: absolute;
+    color: #969393;
+    margin-top: 25px;
+}
+.para-2-children-1{
+    font-family: apercu;
+    font-size: 1.6rem;
+    position: absolute;
+    color: #969393;
+    margin-top: 40px;
+}
+.direction-btn-2{
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 35px;
+    width: 40%;
+    padding: 15px 20px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.third-img{
+    position: absolute;
+    top: 330px;
+    left: 10px;
+}
+.para-b-main{
+    position: relative;
+    top: 380px;
+    left: 0px;
+}
+.para-b{
+    font-size: 1.6rem;
+    letter-spacing: 0.48em;
+    line-height: 4px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.children>.para-b-1 ,.para-b-2{
+    font-family: apercu;
+    font-size: 1.6rem;
+    position: absolute;
+    color: #969393;
+    margin-top: 25px
+}
+.futurak-font-4{
+    font-family: futurak;
+    font-size: 2.4rem;
+    margin: 0px 0px 24px;
+}
+.Express-text{
+    font-family: apercu;
+    font-size: 2.4rem;
+    margin: 0px 0px 24px;
+}
+.container-3{
+    margin-top: 40px;
+    background-color: #0f0f0f;
+    width: 190vh;
+    height: 268%;
+    margin-left: 50px;
+    position: absolute;
+}
+.futurak-font{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.butler-font{
+    font-family: butler;
+    font-size: 5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.para-s{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.8em;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.card{
+    width: 340px;
+    margin-top: 40px;
+    margin-right: 15px;
+}
+.card>.cap-para-1 ,.cap-para-2{
+    font-family: apercu;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    color: #b7b2a7;
+}
+.direction-btn-3{
+    font-family: inter;
+    border:1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    border-radius: 20px 20px;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+.village-image{
+    margin-top: 2700px;
+}
+.fonts{
+    margin-bottom: 30px;
+}
+.new-branches{
+    border: none;
+    margin: 50px 100px;
+    height: 110vh;
+    width: 80vw;
+}
+.new-branches>.img{
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around; 
+}
+.brand-footer{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 85vh;
+}
+.logo-footer{
+    width: 165px;
+    position: relative;
+    margin: 60px 100px;
+}
+.footer-para{
+    font-size: 1.5rem;
+    color: #d6d0d0;
+    margin-left: 100px;
+}
+.terms-para{
+    font-size: 1.6rem;
+    color: #dad0d0;
+    margin-left: 100px;
+}
+.footer-span{
+    font-size: 2rem;
+    color: var(--white);
+}
+.footer-para-1{
+    font-size: 1.5rem;
+    color: #b9b3b3;
+}
+.new-s-image{
+    margin-top: -200px;
+    margin-left: 20px;
+    position: relative;
+}
+.end-para{
+    font-size: 1.5rem;
+    font-family: apercu;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 100px;
+}
+
+/* main ended */
+
+
