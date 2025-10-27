@@ -1,0 +1,161 @@
+:root{
+    --red:#ed1c24;
+    --green:#28a745;
+    --white:#ffffff;
+    --black:#0f0f0f;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter_Tight/InterTight-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: futurak;
+    src: url(./assets/fonts/futurak.ttf);
+}
+@font-face {
+    font-family: apercu;
+    src: url(./assets/fonts/Apercu\ regular.otf);
+}
+@font-face {
+    font-family: butler;
+    src: url(./assets/fonts/butler/Butler/Butler_Medium.otf);
+}
+.navbar-border{
+    border-bottom: 1px solid #413f3f;
+}
+h1{
+    font-family: butler;
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-top: 70px;
+}
+p{
+    font-family: apercu;
+    font-size: 1.6rem;
+    color: #ffffffb3;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+h2{
+    font-family: inter;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-top: 80px;
+}
+.futurak-span{
+    font-family: futurak;
+    font-size: 3.2rem;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 90px;
+}
+.futurak-span-1{
+    font-family: inter;
+    font-size: 3.2rem;
+    display: flex;
+}
+.para-1{
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    color: #ffffffb3;
+    margin-left: 130px;
+    flex-wrap: wrap;
+}
+.image-width{
+    width: 40vw;
+    float: right;
+    position: absolute;
+    right: 100px;
+    top: 730px;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+.image-width-1{
+    margin-top: 180px;
+    margin-left:130px;
+    width: 40vw;
+    border-radius: 7px;
+    flex-wrap: wrap;
+}
+.margin-para{
+    margin-top: 180px;
+    position: relative;
+    left: 20px;
+}
+.futurak-span-2{
+    font-family: futurak;
+    font-size: 3.2rem;
+}
+.futurak-span-3{
+    font-family: inter;
+    font-size: 3.2rem;
+}
+.para-about-2{
+    display: inline;
+    position: absolute;
+    margin-top: 25px;
+    right: 100px;
+}
+.container-1{
+    margin-top: 70px;
+    position: relative;
+}
+.first-image-about{
+    flex-wrap: wrap;
+    position:absolute;
+    margin-top: 170px;
+    right: 120px;
+}
+.container-1>.para{
+    position: absolute;
+    top: 20px;
+    color: var(--white);
+    font-size: 3rem;
+    font-family: inter;
+    font-weight: 500;
+}
+.futurak-font{
+    font-family: futurak;
+    font-size: 3.6rem;
+    margin: 0px 0px 24px;
+}
+.children{
+    position: absolute;
+    left: 130px;
+    top: 120px;
+}
+.para-2{
+    font-size: 1.6rem;
+    font-family: apercu;
+    position: inherit;
+    font-family: apercu;
+    color: #969393;
+}
+.futurak-span-4{
+    font-family: futurak;
+    font-size: 3.2rem;
+    position: absolute;
+    left: 0px;
+}
+.second-image-text{
+    position: absolute;
+    top: 500px;
+    right: 100px;
+}
+.second-image-text>img{
+    position: absolute;
+    left: 0px;
+    right: 500px;
+}
